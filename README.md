@@ -1,12 +1,12 @@
 # InteractiveBroker
-This is an app designed to connect with Interactive Brokers API with real-time data 
+This is an app designed to connect with the Interactive Brokers API with real-time data 
 
 #Overview
 Trader Workstation (TWS) is a desktop GUI application written in Python using Tkinter. It offers a friendly, interactive interface to:
 
 1. View and manage trading accounts
 
-2. Execute buy/sell/liqduidate orders
+2. Execute buy/sell/liquidate orders
 
 3. Visualize price charts
 
@@ -78,14 +78,15 @@ Symbols: Default symbols (AAPL, TSLA, MSFT, AMZN, NVDA) can be changed in code.
 
 News: Sample news is fed automatically for demo purposes. Connect to a real news source for live data.
 
-Styling: Adjust fonts, colors, sizes in the IBDashboard.build_ui() method.
 
-Known Limitations
+Known Limitations:
 Live trading requires a funded and correctly configured Interactive Brokers account.
 
 Chart displays simulated OHLC data for demo purposes. Integrate IB historical data for live charts.
 
-Demo news is simulated; replace with real feeds for live updates.
+Demo news is simulated and is replaced with real feeds for live updates.
+
+How to run the code: Run main code using the app.py script 
 
 #License
 This code is provided for educational and non-commercial use. Use caution and test thoroughly before real-money trading.
